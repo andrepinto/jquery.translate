@@ -43,10 +43,10 @@ Events
 Options
 ==========
 
-  var defaults = { of code
-    initLang:'pt_PT', of code
-    dir:'/', of code
-    area:'#translate-area', of code
+  var defaults = { line 1 of code
+    initLang:'pt_PT', line 2 of code
+    dir:'/', line 3 of code
+    area:'#translate-area', line 4 of code
     filePath:'./files/', of code
     langs:[{ of code
       lang:'pt_PT', of code
