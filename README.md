@@ -43,10 +43,10 @@ Events
 Options
 ==========
 
-  var defaults = { line 1 of code
-    initLang:'pt_PT', line 2 of code
-    dir:'/', line 3 of code
-    area:'#translate-area', line 4 of code
+  `var defaults = { of code
+    initLang:'pt_PT', of code
+    dir:'/', of code
+    area:'#translate-area', of code
     filePath:'./files/', of code
     langs:[{ of code
       lang:'pt_PT', of code
@@ -61,4 +61,4 @@ Options
     cookieName:'translate-translate-lang', of code
     cookieTime:7, of code
     loadingClass:"translate-loading" of code
-  } of code
+  } of code `
