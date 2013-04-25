@@ -26,11 +26,12 @@ pt_PT.json
 
 * Add the plugin
 
- $(function(){ of code
-    $("body").translate({ of code
-      initLang:'pt_PT' of code
-    }); of code
-  }); of code
+ ```js
+ $(function(){
+    $("body").translate({
+      initLang:'pt_PT'
+    });
+  });
 
 
 Events
@@ -42,23 +43,24 @@ Events
 
 Options
 ==========
+
   ```js
-  var defaults = { of code
-    initLang:'pt_PT', of code
-    dir:'/', of code
-    area:'#translate-area', of code
-    filePath:'./files/', of code
-    langs:[{ of code
-      lang:'pt_PT', of code
-      desc:'Português', of code
-      flagClass:'translate-flag-pt' of code
-    },{ of code
-      lang:'us_EN', of code
-      desc:'English', of code
-      flagClass:'translate-flag-en' of code
-    }], of code
-    itemClass:"translate-item-class", of code
-    cookieName:'translate-translate-lang', of code
-    cookieTime:7, of code
-    loadingClass:"translate-loading" of code
-  } of code ```
+  var defaults = {
+    initLang:'pt_PT',
+    dir:'/',
+    area:'#translate-area',
+    filePath:'./files/',
+    langs:[{
+      lang:'pt_PT',
+      desc:'Português',
+      flagClass:'translate-flag-pt'
+    },{
+      lang:'us_EN',
+      desc:'English',
+      flagClass:'translate-flag-en'
+    }],
+    itemClass:"translate-item-class",
+    cookieName:'translate-translate-lang',
+    cookieTime:7,
+    loadingClass:"translate-loading"
+  }
