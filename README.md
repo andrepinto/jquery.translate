@@ -36,7 +36,7 @@ pt_PT.json
 Events
 ==========
 
-* creationCompleted (is triggered when the plugin is loaded)
+* **creationCompleted** (is triggered when the plugin is loaded)
 * translateComplete (is triggered when the translate is complete)
 * translateError    (is triggered when translation went wrong)
 
