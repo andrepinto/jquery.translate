@@ -21,9 +21,8 @@ pt_PT.json
 }
 
 * add the data-translate attribute to the html element
-<MTMarkdownOptions output='raw'>
-  <h1 data-translate="title"></h1>
-</MTMarkdownOptions>
+
+<h1 data-translate="title"></h1>
 
 * Add the plugin
 
@@ -44,7 +43,7 @@ Events
 Options
 ==========
 
-  var defaults = {
+  `var defaults = {
     initLang:'pt_PT',
     dir:'/',
     area:'#translate-area',
@@ -62,4 +61,4 @@ Options
     cookieName:'translate-translate-lang',
     cookieTime:7,
     loadingClass:"translate-loading"
-  }
+  }`
