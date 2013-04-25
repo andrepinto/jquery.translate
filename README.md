@@ -42,8 +42,8 @@ Events
 
 Options
 ==========
-
-  `var defaults = { of code
+  ```js
+  var defaults = { of code
     initLang:'pt_PT', of code
     dir:'/', of code
     area:'#translate-area', of code
@@ -61,4 +61,4 @@ Options
     cookieName:'translate-translate-lang', of code
     cookieTime:7, of code
     loadingClass:"translate-loading" of code
-  } of code `
+  } of code ```
