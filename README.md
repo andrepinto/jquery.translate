@@ -21,8 +21,9 @@ pt_PT.json
 }
 
 * add the data-translate attribute to the html element
-
-<h1 data-translate="title"></h1>
+<MTMarkdownOptions output='raw'>
+  <h1 data-translate="title"></h1>
+</MTMarkdownOptions>
 
 * Add the plugin
 
@@ -37,8 +38,8 @@ Events
 ==========
 
 * **creationCompleted** (is triggered when the plugin is loaded)
-* translateComplete (is triggered when the translate is complete)
-* translateError    (is triggered when translation went wrong)
+* **translateComplete** (is triggered when the translate is complete)
+* **translateError**    (is triggered when translation went wrong)
 
 Options
 ==========
